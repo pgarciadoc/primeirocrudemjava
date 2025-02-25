@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exclusão de produtos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- o method get serve para enviar os dados sem estar criptografado -->
+        <form method="get" action="excpro.jsp">
+            <!-- Label gera um rótulo na tela, que vem sempre antes
+            de um input - for e id ligam um ao outro - required obriga a pessoa a digitar algo -->
+            <label for="cod"> Código a excluir</label>
+            <input id="cod" type="number" name="codigo" required>
+            <input type="submit" value="Excluir">
+        </form>
+    </body>
+</html>
